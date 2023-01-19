@@ -13,7 +13,7 @@ public class login {
     @When("Launch chrome browser")
     public void launch_chrome_browser() {
         // Write code here that turns the phrase above into concrete actions
-        System.out.println("Hello world");
+        System.out.println("Hello world print");
         driver.get("https://www.facebook.com/");
         System.out.println(driver.getCurrentUrl());
     }
